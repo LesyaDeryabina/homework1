@@ -17,6 +17,6 @@ print(postcards)
 postcards["Oleg"] = "Sydney"
 print(postcards)
 
-postcards_values = list(postcards.values())
-print(set(postcards_values))
-print(len(set(postcards_values)))
+postcards_values = set(postcards.values())
+print(postcards_values)
+print(len(postcards_values))
